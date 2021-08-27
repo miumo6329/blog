@@ -2,6 +2,7 @@
 const path = require('path');
 
 module.exports = {
+  pathPrefix: '/blog',
   siteMetadata: {
     title: 'Gatsby Casper',
     description: 'A port of the casper blog built for gatsby',
