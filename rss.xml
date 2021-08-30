@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo2020.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Aug 2021 13:54:44 GMT</lastBuildDate><item><title><![CDATA[Gatsby & GitHub Pagesでブログを作る]]></title><description><![CDATA[このブログを作った時の備忘録。 実行環境 Windows 10 Home Node.js v16.8.0. npm —version 7.21.0 Node.jsインストール 公式サイトからインストーラをダウンロードします。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo2020.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Aug 2021 13:57:57 GMT</lastBuildDate><item><title><![CDATA[Gatsby & GitHub Pagesでブログを作る]]></title><description><![CDATA[このブログを作った時の備忘録。 実行環境 Windows 10 Home Node.js v16.8.0. npm —version 7.21.0 Node.jsインストール 公式サイトからインストーラをダウンロードします。
 今回は最新版をインストールしました。 https…]]></description><link>https://miumo2020.github.io/20210827/start-blog/</link><guid isPermaLink="false">https://miumo2020.github.io/20210827/start-blog/</guid><pubDate>Fri, 27 Aug 2021 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;このブログを作った時の備忘録。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;実行環境&lt;/h1&gt;
@@ -17,7 +17,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png&quot;
+    href=&quot;/blog/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -30,9 +30,9 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;capture-01&quot;
         title=&quot;capture-01&quot;
-        src=&quot;/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png&quot;
-        srcset=&quot;/static/60b8823ae0a21c88ff8b1ee627b57bed/0eb09/capture-01.png 500w,
-/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png 964w&quot;
+        src=&quot;/blog/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png&quot;
+        srcset=&quot;/blog/static/60b8823ae0a21c88ff8b1ee627b57bed/0eb09/capture-01.png 500w,
+/blog/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png 964w&quot;
         sizes=&quot;(max-width: 964px) 100vw, 964px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -59,7 +59,7 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png&quot;
+    href=&quot;/blog/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -72,9 +72,9 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;capture-02&quot;
         title=&quot;capture-02&quot;
-        src=&quot;/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png&quot;
-        srcset=&quot;/static/e57e84e7f4b7f3f743c0217999873237/0eb09/capture-02.png 500w,
-/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png 754w&quot;
+        src=&quot;/blog/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png&quot;
+        srcset=&quot;/blog/static/e57e84e7f4b7f3f743c0217999873237/0eb09/capture-02.png 500w,
+/blog/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png 754w&quot;
         sizes=&quot;(max-width: 754px) 100vw, 754px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -89,7 +89,7 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png&quot;
+    href=&quot;/blog/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -102,9 +102,9 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;capture-03&quot;
         title=&quot;capture-03&quot;
-        src=&quot;/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png&quot;
-        srcset=&quot;/static/157fccfb7ea79e28285736ec27166f8b/0eb09/capture-03.png 500w,
-/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png 829w&quot;
+        src=&quot;/blog/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png&quot;
+        srcset=&quot;/blog/static/157fccfb7ea79e28285736ec27166f8b/0eb09/capture-03.png 500w,
+/blog/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png 829w&quot;
         sizes=&quot;(max-width: 829px) 100vw, 829px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -153,10 +153,10 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Test Image&quot;
         title=&quot;Test Image&quot;
-        src=&quot;/static/8bafcea43f0bc141b01ef5b43dd2003b/b37e7/testimg1.jpg&quot;
-        srcset=&quot;/static/8bafcea43f0bc141b01ef5b43dd2003b/953fe/testimg1.jpg 500w,
-/static/8bafcea43f0bc141b01ef5b43dd2003b/0a251/testimg1.jpg 1000w,
-/static/8bafcea43f0bc141b01ef5b43dd2003b/b37e7/testimg1.jpg 1080w&quot;
+        src=&quot;/blog/static/8bafcea43f0bc141b01ef5b43dd2003b/b37e7/testimg1.jpg&quot;
+        srcset=&quot;/blog/static/8bafcea43f0bc141b01ef5b43dd2003b/953fe/testimg1.jpg 500w,
+/blog/static/8bafcea43f0bc141b01ef5b43dd2003b/0a251/testimg1.jpg 1000w,
+/blog/static/8bafcea43f0bc141b01ef5b43dd2003b/b37e7/testimg1.jpg 1080w&quot;
         sizes=&quot;(max-width: 1080px) 100vw, 1080px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -177,8 +177,8 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Small Test Image&quot;
         title=&quot;Small Test Image&quot;
-        src=&quot;/static/b629d579b1c63df6750fc11d47141796/0cdb7/testimg2.jpg&quot;
-        srcset=&quot;/static/b629d579b1c63df6750fc11d47141796/0cdb7/testimg2.jpg 300w&quot;
+        src=&quot;/blog/static/b629d579b1c63df6750fc11d47141796/0cdb7/testimg2.jpg&quot;
+        srcset=&quot;/blog/static/b629d579b1c63df6750fc11d47141796/0cdb7/testimg2.jpg 300w&quot;
         sizes=&quot;(max-width: 300px) 100vw, 300px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -341,7 +341,7 @@ _[CSS]: Cascading Style Sheets&lt;/p&gt;</content:encoded></item><item><title><!
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4aec4f6250f1a9c047e5e7973c9e348b/03ffe/computer.jpg&quot;
+    href=&quot;/blog/static/4aec4f6250f1a9c047e5e7973c9e348b/03ffe/computer.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -354,10 +354,10 @@ _[CSS]: Cascading Style Sheets&lt;/p&gt;</content:encoded></item><item><title><!
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Computer&quot;
         title=&quot;Computer&quot;
-        src=&quot;/static/4aec4f6250f1a9c047e5e7973c9e348b/03ffe/computer.jpg&quot;
-        srcset=&quot;/static/4aec4f6250f1a9c047e5e7973c9e348b/953fe/computer.jpg 500w,
-/static/4aec4f6250f1a9c047e5e7973c9e348b/0a251/computer.jpg 1000w,
-/static/4aec4f6250f1a9c047e5e7973c9e348b/03ffe/computer.jpg 1200w&quot;
+        src=&quot;/blog/static/4aec4f6250f1a9c047e5e7973c9e348b/03ffe/computer.jpg&quot;
+        srcset=&quot;/blog/static/4aec4f6250f1a9c047e5e7973c9e348b/953fe/computer.jpg 500w,
+/blog/static/4aec4f6250f1a9c047e5e7973c9e348b/0a251/computer.jpg 1000w,
+/blog/static/4aec4f6250f1a9c047e5e7973c9e348b/03ffe/computer.jpg 1200w&quot;
         sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -388,7 +388,7 @@ _[CSS]: Cascading Style Sheets&lt;/p&gt;</content:encoded></item><item><title><!
 &lt;h2&gt;Dividing things up&lt;/h2&gt;
 &lt;p&gt;If you’re writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping &lt;code class=&quot;language-text&quot;&gt;---&lt;/code&gt; on a new line will create a sleek divider, anywhere you want it.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the &lt;a href=&quot;/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of &lt;a href=&quot;/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Purpose of Education]]></title><description><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…]]></description><link>https://miumo2020.github.io/purpose-of-education/</link><guid isPermaLink="false">https://miumo2020.github.io/purpose-of-education/</guid><pubDate>Mon, 20 Aug 2012 15:11:55 GMT</pubDate><content:encoded>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
+&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the &lt;a href=&quot;/blog/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of &lt;a href=&quot;/blog/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Purpose of Education]]></title><description><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…]]></description><link>https://miumo2020.github.io/purpose-of-education/</link><guid isPermaLink="false">https://miumo2020.github.io/purpose-of-education/</guid><pubDate>Mon, 20 Aug 2012 15:11:55 GMT</pubDate><content:encoded>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 &lt;p&gt;Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
 &lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
