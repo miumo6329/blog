@@ -1,4 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[A port of the casper blog built for gatsby]]></description><link>https://gatsby-casper.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 27 Aug 2021 03:00:34 GMT</lastBuildDate><item><title><![CDATA[Github Source]]></title><description><![CDATA[A few things you should know Find the source of this blog on GitHub - scttcper/gatsby-casper Getting Started Use this repo to start your own…]]></description><link>https://gatsby-casper.netlify.com/github-link/</link><guid isPermaLink="false">https://gatsby-casper.netlify.com/github-link/</guid><pubDate>Sun, 10 Mar 2019 10:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;strong&gt;A few things you should know&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo2020.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Aug 2021 13:48:39 GMT</lastBuildDate><item><title><![CDATA[Gatsby & GitHub Pagesでブログを作る]]></title><description><![CDATA[このブログを作った時の備忘録。 実行環境 Windows 10 Home Node.js v16.8.0. npm —version 7.21.0 Node.jsインストール 公式サイトからインストーラをダウンロードします。
+今回は最新版をインストールしました。 https…]]></description><link>https://miumo2020.github.io/20210827/start-blog/</link><guid isPermaLink="false">https://miumo2020.github.io/20210827/start-blog/</guid><pubDate>Fri, 27 Aug 2021 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;このブログを作った時の備忘録。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;実行環境&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows 10 Home&lt;/li&gt;
+&lt;li&gt;Node.js v16.8.0.&lt;/li&gt;
+&lt;li&gt;npm —version 7.21.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Node.jsインストール&lt;/h1&gt;
+&lt;p&gt;公式サイトからインストーラをダウンロードします。
+今回は最新版をインストールしました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/ja/&quot;&gt;https://nodejs.org/ja/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 964px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 90.2%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADJ0lEQVQ4y4WTS08TURTHb+InMHElhbQV2mnHwLSdTqcP6It2KImuTFywsrQYY8SlBUTThSbE2jIk6M7XSpeykA+g2AomrmxpixgTE9ppqYJAmde9OjNAQBf+cnLzz5xz5p5zz73AYMCCkeGAf5h2hXzeIaKP7urs7tR16zqMOp1RWU9ap+5cV2e3QY8Z9GZA9FGKEdR53I7jNitO2AjKgvUa9D36rh6D3mQ0mo1G8zl1NRhMZvN53EoQBGUjXICiKFLF6XQeCNJpt9sjg9HLyUsT06lYbNhut1MqTopS4lRIkgQmkwnDMLPKgcYUYbXgBNVH+2jciptMJs2rocZgOI6DTCaTTqdnZmbm5+dnVdhZNpvNsbPswwcPc7lZdm6OZVl2js1msyzL5nK5Oe0LywL0P2RZhjLUtCRKEMIjF+B5HiHU3t+rtWrNrWbjF1ff5upbNW6rzm1xzV+NWmuj1qrVf9RrrdpGc4P7ybWFtqwCRElECO2Ju2vNyipXKtWL5cZqiStWNyuVZrnSLK82iquNUqlRLKquSrO8I+wc7CxK0l91QgFCASGIxH2B3+ZRGyEewTb8tyMlGSLFUebKqYVb6cX01OvJOwt3br4af/L+ybN3T8df3ph+ffv+4r1Hb+cnFlKfvn9SDgLKSrIkSZp68/kNSIBT46d002fPTJ4GV8DFxxdGno6AONDd7SAzDmNaD+LgxYfnCCFRFk+U3drZXP764eO3lfxavvClUFjPr3HVar2aX8+vfF1eqi4V1guF9cLm7qbSmlosEEXxeBvSviTyonKKEAmiIIgChGifb++1944P6bBnXpBlKB3uL6tjVQxBiKAMZQlKkixJB+OGCB2b8+j1a6mpWxOpiWQyGY/HE4nE6KhmColEInmEKsfGrioxaiSwu2zBUL/f79fuukOFdDi029/b24thmPUQknZ7guGBCNNH2CwWC/APBKJMLMIMMUOxodiwtkaj0XA4PDg4GAoGfQN+F+1W/kiSgXAkEGHCTMw74Hc4HMDb7w8zsWCECTGxUITx+Po9Xp+LprVHqkIdVUR7vG6fz+X2uNyeP8m/AaC5aHinOum4AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;capture-01&quot;
+        title=&quot;capture-01&quot;
+        src=&quot;/blog/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png&quot;
+        srcset=&quot;/blog/static/60b8823ae0a21c88ff8b1ee627b57bed/0eb09/capture-01.png 500w,
+/blog/static/60b8823ae0a21c88ff8b1ee627b57bed/ed282/capture-01.png 964w&quot;
+        sizes=&quot;(max-width: 964px) 100vw, 964px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;Gatsbyインストール&lt;/h1&gt;
+&lt;p&gt;コマンドプロンプトから下記コマンドを実行。
+いろいろなウェブサイトを見ていると&lt;code class=&quot;language-text&quot;&gt;npm install -g gatsby-cli&lt;/code&gt;としてグローバルにインストールしている例もありますが、今回はGatsby用のパッケージフォルダを作成しました。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm init
+npm install gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h1&gt;Gatsby Starterを使ってサイト生成&lt;/h1&gt;
+&lt;p&gt;CLIコマンドを実行しサイト生成します。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npx gatsby new blog https://github.com/scttcper/gatsby-casper&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ビジュアルがかっこよかったので&lt;a href=&quot;https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/&quot;&gt;gatsby-casper&lt;/a&gt;を使いました。
+サイト名「blog」は任意です。&lt;/p&gt;
+&lt;p&gt;生成が完了したらディレクトリ移動し、開発用サーバを起動します。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;cd blog
+npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;ブラウザで&lt;a href=&quot;http://localhost:8000/&quot;&gt;http://localhost:8000/&lt;/a&gt;にアクセスし、以下の様な画面が表示されれば成功です。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 754px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 109.60000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAIAAABPIytRAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAEYElEQVQ4y02R3W8UVRjGT92Z2dn53I+ZnTlnzpnP3Z3Z2WGn+9ndlm2htbBtpZAWNC1RIDFKNFQxXpAoF0QKEUSBIKWS2CBoNDGRJsiV3qjxwisvvDDxwnBrjAn/gdkuGt78cvKe932e81wcgA13YmJ23+zBifHZId3OjOMEBnKw4T4Nwd6wsayiSQquE4AoasbVsU57T1RpVne14mq73eqF5VGTDBT/UTRJERseNryyH/uluDbarde6IJtR8hpUVE1VdUXJazqCBlHzeianZpV8Vslncmomo8jpLERY01E+D4lpZ7NKsRgAmqbltMwLvChJoiznVFXVNDmbFeV0OpuTs1kpneFFKcVzOkI5VZVkWdP1RCJRqzdAMpmkKIpJJpkky6ZSbIpL8TzHCxwvMOzgyrApQZR4UWRYlh7IkjTDAAAajdbAPCw2lUpxHMfznCAomlYolian9oSVqNlqi5LM7qxSHJdk2STLAgDqjebAzAxr8ADL8QIvCDrGcwsLx46f6M/PH1hclOQ0J4hD51AIAGi1xp4yMwzNMBAi07KJaTquh4mJMNEN6Liu5TiCKNI0PTSPjIyUyxXA0DRNUTQ9YNhTFJWgqEQiQdEUwzDsIG0wZxj6SRBNU4mEIMpAkjOilJakNCdILCeynMgJ8pOhnEmyXIJiElSSYlIMy408Q1E0O9DwYk7VAcK2aTnE8mpx3Ou0ep1mtVLWdEQsFxrm3ulnV1dXXjr6/JGlA/Nz+06+durw8uHeeCeKqho0ATIsy7LjqDw7UT/S723dvnXr4+uLC/2gHGoQX1g/9+j3X+7fufLwqxs/frP5z6Pffv7+27vXz6ydPCplNIAMExMsCjwAII5rFz+49vnXD25+slWvN5Q82ty49vjvR198euPhnY++3Lx6+8P19TNr259dWXt1RUxrQEcm1NRGNepO9ldWTxw9OPPWm2tvn15zHVvJo3tbG4//+nP77s2Nc6fff+/dN069vnTw0A/fPXjl5RfFtAogIhzHjQZ2f6q9uDtYnq7O72lMd6s6hDlVv7e18cevP505efzYC8vLS4fm5hcancnt7fsXL5xP8WmgQ8LxvMCzIZGnY30qJjUfQz2vKGpW0a9eOr95ZX3puQNz/X5jbLLZnarUOpcvXzp79h1ezAKIbehVdMPWIEHYxMTK6zivEx2ZOjLdIMZ2AZHBd+AhpucWAtst6sgExPJ2793fGZ/sjvdGay0NmYg4iNjQsKBhNTu7987s703N1Bvtse7k2NhEp9sjlqdBAg0LGNi2Pd8uBIUgKviRV6p4fqUYRAhbOjLrrU67M1EdbWDLI3aB2AXDdIldQMZgC6BhOf6uUhBZThESB1se3FkMk71SpRTGQVSrxM2w2ohqrTCuh3HD9nwNkoGZuL5bDG3PJ3bB9vyheUjBjyq1VlAZLYbVYFetFMalsOpXYsstIcMGO1Kyg4lNF5susTxieeYOXin0w6rt+QZx/gfvnF6x/C/Zfdi9dHKRFAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;capture-02&quot;
+        title=&quot;capture-02&quot;
+        src=&quot;/blog/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png&quot;
+        srcset=&quot;/blog/static/e57e84e7f4b7f3f743c0217999873237/0eb09/capture-02.png 500w,
+/blog/static/e57e84e7f4b7f3f743c0217999873237/a0d62/capture-02.png 754w&quot;
+        sizes=&quot;(max-width: 754px) 100vw, 754px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;GitHub Pagesの設定&lt;/h1&gt;
+&lt;p&gt;GitHub → New Repository → 任意のRepository name入力 → Create repository&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 829px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 113.80000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAC8klEQVQ4y42T247kNBCGc9XDJB0njs/n2E466Rymabp7F8QAN8DAFax4CMT7vwBKMruCmdGC9KlUjvW7XH/FibPt08+/Pz19+OXpw08//vbD97+Ow0WKWqlgdHyBVkGrYE3j64OzbdJ3p2m8Xq+P83R7mG99fzo93ObpEsNRSW90UNIr6ReZXgi+P7TzMFzm6ZZc3n13vj1K05i6U66lshY6ShNdODb9ybdTN5wPwzl2c2gnJr2Lg4vj5frN+HBN/GFy7VhihbmtmAGVyCteYIGFE7ZhOkrXqvogbMNNhMxQHYjy1h/G0y3JCgKJwkxXVCFmiKiJrEHFs4JspACnAG/5vqRb3GXQN0MCKh6Hr7r5FodLPJ766XIYztI0FTOYu/U4h7nFS3RYuGXJbApwPExJXnFAbMF8wUIOWQrwfY72JQUV3yiQ2OKSrLFA4h7gcBiTdYPvAUoBygqylULcbhpQ8RyyF4CKP4uzgr57/9iPZxsHriNVXtqIufkig7u0vNuXWbk0mS+wFfoPcUmH6dxPl9g92HBkKkgTmfJLn9wS6ahyVHpodKkl1ApKBeBHcYEEN41yByLrEstPfRZYFlhuXwoscsT2iOaI5dVS/z5Hq2GQ3WflLi3u0vIufU52afGCbfcTu7SM3ZQAJInumA4VNZsZ/0mBRPp8bax0GOrmaMMRPc/TLoYzi9a2EbeQqMWz126XWNW1kUpSHUssIdWLjBksHKT69Zz+Jc4hI9IL0zAdpG2Z8sV6sRLLbdSfE0Os2uOXdTvF/sH4npuI2HJtIlyBRA7p58QVVbGbje/qZqDClVghbiBZ3glktmQBvDoCVHwxrB0TSJRvx7odbeirj8+ALM7VUDQA67cr56jp5qQiOnSzcq0NPeZ28YyoFV0SC7DK32o7K4gwYfnDmPZUe6bDOiGzum3XxEARC2Lykr6pT/KK2T/m/s+v+7/es2+bLMN7SPflM6uMvjmwHLJFDJ3GjcONK4Rc3g38X4CK/w3YfIY3SSsjGAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;capture-03&quot;
+        title=&quot;capture-03&quot;
+        src=&quot;/blog/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png&quot;
+        srcset=&quot;/blog/static/157fccfb7ea79e28285736ec27166f8b/0eb09/capture-03.png 500w,
+/blog/static/157fccfb7ea79e28285736ec27166f8b/c2a54/capture-03.png 829w&quot;
+        sizes=&quot;(max-width: 829px) 100vw, 829px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;ソースコードの修正&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;gatsby-node.js&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;paginationの値。1ページに表示したい記事数に数値を修正。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;  &lt;span class=&quot;token comment&quot;&gt;// Create paginated index&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// TODO: new pagination&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; postsPerPage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Github Source]]></title><description><![CDATA[A few things you should know Find the source of this blog on GitHub - scttcper/gatsby-casper Getting Started Use this repo to start your own…]]></description><link>https://miumo2020.github.io/github-link/</link><guid isPermaLink="false">https://miumo2020.github.io/github-link/</guid><pubDate>Sun, 10 Mar 2019 10:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;strong&gt;A few things you should know&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Find the source of this blog on GitHub - &lt;a href=&quot;https://github.com/scttcper/gatsby-casper&quot;&gt;scttcper/gatsby-casper&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Getting Started&lt;/h3&gt;
 &lt;p&gt;Use this repo to start your own blog with the same theme.&lt;/p&gt;
@@ -6,7 +126,7 @@
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/scttcper/gatsby-casper.git --depth&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Remove .git folder and setup a new one&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; -rf .git &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Now push to whatever repo you want!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…]]></description><link>https://gatsby-casper.netlify.com/a-full-style-test/</link><guid isPermaLink="false">https://gatsby-casper.netlify.com/a-full-style-test/</guid><pubDate>Sun, 30 Sep 2018 07:03:47 GMT</pubDate><content:encoded>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+&lt;p&gt;Now push to whatever repo you want!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Full and Comprehensive Style Test]]></title><description><![CDATA[Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs…]]></description><link>https://miumo2020.github.io/a-full-style-test/</link><guid isPermaLink="false">https://miumo2020.github.io/a-full-style-test/</guid><pubDate>Sun, 30 Sep 2018 07:03:47 GMT</pubDate><content:encoded>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;Heading 1&lt;/h1&gt;
 &lt;h2&gt;Heading 2&lt;/h2&gt;
@@ -187,7 +307,7 @@ The &lt;u&gt;u element&lt;/u&gt; example&lt;/p&gt;
 &lt;script async src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;Isn’t it beautiful.&lt;/p&gt;
 &lt;p&gt;_[HTML]: Hyper Text Markup Language
-_[CSS]: Cascading Style Sheets&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Welcome to Ghost]]></title><description><![CDATA[A few things you should know upfront: Ghost is designed for ambitious, professional publishers who want to actively build a business around…]]></description><link>https://gatsby-casper.netlify.com/welcome/</link><guid isPermaLink="false">https://gatsby-casper.netlify.com/welcome/</guid><pubDate>Sun, 06 May 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;A few things you should know upfront&lt;/strong&gt;:&lt;/p&gt;
+_[CSS]: Cascading Style Sheets&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Welcome to Ghost]]></title><description><![CDATA[A few things you should know upfront: Ghost is designed for ambitious, professional publishers who want to actively build a business around…]]></description><link>https://miumo2020.github.io/welcome/</link><guid isPermaLink="false">https://miumo2020.github.io/welcome/</guid><pubDate>Sun, 06 May 2018 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;A few things you should know upfront&lt;/strong&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That’s who it works best for.&lt;/li&gt;
 &lt;li&gt;The entire platform can be modified and customised to suit your needs. It’s very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.&lt;/li&gt;
@@ -199,7 +319,7 @@ _[CSS]: Cascading Style Sheets&lt;/p&gt;</content:encoded></item><item><title><!
 &lt;p&gt;The main thing you’ll want to read about next is probably: the Ghost editor. This is where the good stuff happens.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;By the way, once you’re done reading, you can simply delete the default &lt;strong&gt;Ghost&lt;/strong&gt; user from your team to remove all of these introductory posts!&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Using The Ghost Editor]]></title><description><![CDATA[Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between…]]></description><link>https://gatsby-casper.netlify.com/using-the-ghost-editor/</link><guid isPermaLink="false">https://gatsby-casper.netlify.com/using-the-ghost-editor/</guid><pubDate>Mon, 02 Feb 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Using The Ghost Editor]]></title><description><![CDATA[Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between…]]></description><link>https://miumo2020.github.io/using-the-ghost-editor/</link><guid isPermaLink="false">https://miumo2020.github.io/using-the-ghost-editor/</guid><pubDate>Mon, 02 Feb 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Ghost uses a language called &lt;strong&gt;Markdown&lt;/strong&gt; to format text.&lt;/p&gt;
 &lt;p&gt;When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.&lt;/p&gt;
 &lt;p&gt;At the bottom of the editor, you’ll find a toolbar with basic formatting options to help you get started as easily as possible. You’ll also notice that there’s a &lt;strong&gt;?&lt;/strong&gt; icon, which contains more advanced shortcuts.&lt;/p&gt;
 &lt;p&gt;For now, though, let’s run you through some of the basics. You’ll want to make sure you’re editing this post in order to see all the Markdown we’ve used.&lt;/p&gt;
@@ -268,15 +388,15 @@ _[CSS]: Cascading Style Sheets&lt;/p&gt;</content:encoded></item><item><title><!
 &lt;h2&gt;Dividing things up&lt;/h2&gt;
 &lt;p&gt;If you’re writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping &lt;code class=&quot;language-text&quot;&gt;---&lt;/code&gt; on a new line will create a sleek divider, anywhere you want it.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the &lt;a href=&quot;/blog/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of &lt;a href=&quot;/blog/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Purpose of Education]]></title><description><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…]]></description><link>https://gatsby-casper.netlify.com/purpose-of-education/</link><guid isPermaLink="false">https://gatsby-casper.netlify.com/purpose-of-education/</guid><pubDate>Mon, 20 Aug 2012 15:11:55 GMT</pubDate><content:encoded>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
+&lt;p&gt;This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the &lt;a href=&quot;/blog/advanced-markdown/&quot;&gt;Advanced Markdown Guide&lt;/a&gt; - or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of &lt;a href=&quot;/blog/using-tags/&quot;&gt;how to use Ghost tags&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Purpose of Education]]></title><description><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the…]]></description><link>https://miumo2020.github.io/purpose-of-education/</link><guid isPermaLink="false">https://miumo2020.github.io/purpose-of-education/</guid><pubDate>Mon, 20 Aug 2012 15:11:55 GMT</pubDate><content:encoded>&lt;p&gt;As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 &lt;p&gt;Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
 &lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
 &lt;p&gt;The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?&lt;/p&gt;
 &lt;p&gt;We must remember that intelligence is not enough. Intelligence plus character—that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.&lt;/p&gt;
-&lt;p&gt;If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, “brethren!” Be careful, teachers!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Great Gatsby]]></title><description><![CDATA[In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. “Whenever you feel…]]></description><link>https://gatsby-casper.netlify.com/emancipation-proclamation/</link><guid isPermaLink="false">https://gatsby-casper.netlify.com/emancipation-proclamation/</guid><pubDate>Tue, 12 Dec 1922 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.&lt;/p&gt;
+&lt;p&gt;If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, “brethren!” Be careful, teachers!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Great Gatsby]]></title><description><![CDATA[In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. “Whenever you feel…]]></description><link>https://miumo2020.github.io/emancipation-proclamation/</link><guid isPermaLink="false">https://miumo2020.github.io/emancipation-proclamation/</guid><pubDate>Tue, 12 Dec 1922 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.&lt;/p&gt;
 &lt;p&gt;“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”&lt;/p&gt;
 &lt;p&gt;He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought — frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. Reserving judgments is a matter of infinite hope. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth.&lt;/p&gt;
-&lt;p&gt;And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gettysburg Address]]></title><description><![CDATA[Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the…]]></description><link>https://gatsby-casper.netlify.com/gettysburg-address/</link><guid isPermaLink="false">https://gatsby-casper.netlify.com/gettysburg-address/</guid><pubDate>Thu, 19 Nov 1863 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+&lt;p&gt;And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction — Gatsby, who represented everything for which I have an unaffected scorn. If personality is an unbroken series of successful gestures, then there was something gorgeous about him, some heightened sensitivity to the promises of life, as if he were related to one of those intricate machines that register earthquakes ten thousand miles away. This responsiveness had nothing to do with that flabby impressionability which is dignified under the name of the “creative temperament.”— it was an extraordinary gift for hope, a romantic readiness such as I have never found in any other person and which it is not likely I shall ever find again. No — Gatsby turned out all right at the end; it is what preyed on Gatsby, what foul dust floated in the wake of his dreams that temporarily closed out my interest in the abortive sorrows and short-winded elations of men.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gettysburg Address]]></title><description><![CDATA[Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the…]]></description><link>https://miumo2020.github.io/gettysburg-address/</link><guid isPermaLink="false">https://miumo2020.github.io/gettysburg-address/</guid><pubDate>Thu, 19 Nov 1863 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
 &lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
 &lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content:encoded></item></channel></rss>
