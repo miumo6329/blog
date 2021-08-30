@@ -49,18 +49,18 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
+  title: 'miumo.log',
+  description: 'Simplicity is the ultimate sophistication.',
   coverImage: 'img/blog-cover.png',
   logo: 'img/ghost-logo.png',
-  lang: 'en',
-  siteUrl: 'https://gatsby-casper.netlify.com',
-  facebook: 'https://www.facebook.com/ghost',
-  twitter: 'https://twitter.com/tryghost',
-  showSubscribe: true,
-  mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
-  mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
-  mailchimpEmailFieldName: 'MERGE0',
+  lang: 'ja',
+  siteUrl: 'https://miumo2020.github.io/blog',
+  facebook: '',
+  twitter: '',
+  showSubscribe: false,
+  mailchimpAction: '',
+  mailchimpName: '',
+  mailchimpEmailFieldName: '',
   googleSiteVerification: 'GoogleCode',
   footer: 'is based on Gatsby Casper',
 };
