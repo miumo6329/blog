@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo2020.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 30 Aug 2021 13:57:57 GMT</lastBuildDate><item><title><![CDATA[Gatsby & GitHub Pagesでブログを作る]]></title><description><![CDATA[このブログを作った時の備忘録。 実行環境 Windows 10 Home Node.js v16.8.0. npm —version 7.21.0 Node.jsインストール 公式サイトからインストーラをダウンロードします。
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo2020.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 31 Aug 2021 13:58:49 GMT</lastBuildDate><item><title><![CDATA[Gatsby & GitHub Pagesでブログを作る]]></title><description><![CDATA[このブログを作った時の備忘録。 実行環境 Windows 10 Home Node.js v16.8.0. npm —version 7.21.0 Node.jsインストール 公式サイトからインストーラをダウンロードします。
 今回は最新版をインストールしました。 https…]]></description><link>https://miumo2020.github.io/20210827/start-blog/</link><guid isPermaLink="false">https://miumo2020.github.io/20210827/start-blog/</guid><pubDate>Fri, 27 Aug 2021 22:45:00 GMT</pubDate><content:encoded>&lt;p&gt;このブログを作った時の備忘録。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;実行環境&lt;/h1&gt;
@@ -113,12 +113,34 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;h1&gt;ソースコードの修正&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;gatsby-node.js&lt;/li&gt;
+&lt;li&gt;ページネーションの設定&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;paginationの値。1ページに表示したい記事数に数値を修正。&lt;/p&gt;
+&lt;p&gt;gatsby-node.js&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;  &lt;span class=&quot;token comment&quot;&gt;// Create paginated index&lt;/span&gt;
   &lt;span class=&quot;token comment&quot;&gt;// TODO: new pagination&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; postsPerPage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Github Source]]></title><description><![CDATA[A few things you should know Find the source of this blog on GitHub - scttcper/gatsby-casper Getting Started Use this repo to start your own…]]></description><link>https://miumo2020.github.io/github-link/</link><guid isPermaLink="false">https://miumo2020.github.io/github-link/</guid><pubDate>Sun, 10 Mar 2019 10:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;strong&gt;A few things you should know&lt;/strong&gt;&lt;/h2&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; postsPerPage &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;日本語フォントの設定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PostCard.tsx&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; PostCardExcerpt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styled&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;section`
+  &lt;span class=&quot;token comment&quot;&gt;// font-family: Georgia, serif;&lt;/span&gt;
+  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;family&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; Georgia&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Yu Gothic&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;PostContent.tsx&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; PostFullContent &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styled&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;section`
+  position&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; relative&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  margin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; auto&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  padding&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;170&lt;/span&gt;px &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;vw&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  min&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;height&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;230&lt;/span&gt;px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;// font-family: Georgia, serif;&lt;/span&gt;
+  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;family&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Yu Gothic&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; Georgia&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; serif&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  font&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;size&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;rem&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  line&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;height&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.6&lt;/span&gt;em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  background&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #fff&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Github Source]]></title><description><![CDATA[A few things you should know Find the source of this blog on GitHub - scttcper/gatsby-casper Getting Started Use this repo to start your own…]]></description><link>https://miumo2020.github.io/github-link/</link><guid isPermaLink="false">https://miumo2020.github.io/github-link/</guid><pubDate>Sun, 10 Mar 2019 10:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;strong&gt;A few things you should know&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Find the source of this blog on GitHub - &lt;a href=&quot;https://github.com/scttcper/gatsby-casper&quot;&gt;scttcper/gatsby-casper&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Getting Started&lt;/h3&gt;
 &lt;p&gt;Use this repo to start your own blog with the same theme.&lt;/p&gt;
