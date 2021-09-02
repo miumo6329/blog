@@ -13,7 +13,9 @@
 <url> <loc>https://miumo2020.github.io/blog/tags/getting-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo2020.github.io/blog/tags/tests/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo2020.github.io/blog/tags/source/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://miumo2020.github.io/blog/tags/プログラミング/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://miumo2020.github.io/blog/tags/node-js/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://miumo2020.github.io/blog/tags/gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://miumo2020.github.io/blog/author/miumo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo2020.github.io/blog/author/ghost/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo2020.github.io/blog/author/another-author/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo2020.github.io/blog/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
