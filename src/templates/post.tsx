@@ -330,9 +330,9 @@ const PostFullCustomExcerpt = styled.p`
   margin: 20px 0 0;
   color: var(--midgrey);
   font-family: "Yu Gothic", Georgia, serif;
-  font-size: 2.3rem;
+  font-size: 2.0rem;
   line-height: 1.4em;
-  font-weight: 300;
+  font-weight: 500;
 
   @media (max-width: 500px) {
     font-size: 1.9rem;
@@ -426,7 +426,7 @@ export const PostFullTitle = styled.h1`
 
 const PostFullImage = styled.figure`
   margin: 25px 0 50px;
-  height: 800px;
+  height: 500px;
   background: ${colors.lightgrey} center center;
   background-size: cover;
   border-radius: 5px;

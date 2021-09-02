@@ -36,6 +36,7 @@ export const PostFullContent = styled.section`
   min-height: 230px;
   font-family: "Yu Gothic", Georgia, serif;
   font-size: 1.6rem;
+  font-weight: 500;
   line-height: 1.6em;
   background: #fff;
 
