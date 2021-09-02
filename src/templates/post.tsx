@@ -192,11 +192,13 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
             <article css={[PostFull, !post.frontmatter.image && NoImage]}>
               <PostFullHeader className="post-full-header">
                 <PostFullTags className="post-full-tags">
-                  {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-                    <Link to={`/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
-                      {post.frontmatter.tags[0]}
-                    </Link>
-                  )}
+                  {post.frontmatter.tags.map(tag => (
+                    <PostTags>
+                      <Link to={`/tags/${_.kebabCase(tag)}/`}>
+                        {tag}
+                      </Link>
+                    </PostTags>
+                  ))}
                 </PostFullTags>
                 <PostFullTitle className="post-full-title">{post.frontmatter.title}</PostFullTitle>
                 <PostFullCustomExcerpt className="post-full-custom-excerpt">
@@ -310,6 +312,7 @@ export const PostFullHeader = styled.header`
 
 const PostFullTags = styled.section`
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   /* color: var(--midgrey); */
@@ -317,13 +320,16 @@ const PostFullTags = styled.section`
   font-size: 1.3rem;
   line-height: 1.4em;
   font-weight: 600;
-  text-transform: uppercase;
+`;
+
+const PostTags = styled.div`
+  margin-right: 0.5em;
 `;
 
 const PostFullCustomExcerpt = styled.p`
   margin: 20px 0 0;
   color: var(--midgrey);
-  font-family: Georgia, serif;
+  font-family: "Yu Gothic", Georgia, serif;
   font-size: 2.3rem;
   line-height: 1.4em;
   font-weight: 300;
