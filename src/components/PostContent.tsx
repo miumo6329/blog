@@ -265,12 +265,10 @@ export const PostFullContent = styled.section`
   }
 
   h1 {
-    margin: 2em 0 0.4em;
-    font-size: 3.2rem;
+    margin: 0.5em 0 0.4em;
+    font-size: 4.2rem;
     line-height: 1.25em;
     font-weight: 600;
-    padding: 0.2em 0.5em;
-    border-left: solid 5px ${colors.blue};
   }
   p + h1 {
     margin-top: 0.8em;
@@ -283,10 +281,13 @@ export const PostFullContent = styled.section`
   }
 
   h2 {
-    margin: 0.5em 0 0.4em;
-    font-size: 2.8rem;
-    line-height: 1.25em;
+    margin: 2em 0 0.4em;
+    font-size: 3.2rem;
+    line-height: 1.0em;
     font-weight: 600;
+    padding: 0.2em 0.5em;
+    border-bottom: solid 3px ${colors.blue};
+
   }
   p + h2 {
     margin-top: 0.8em;
@@ -301,9 +302,11 @@ export const PostFullContent = styled.section`
 
   h3 {
     margin: 0.5em 0 0.2em;
-    font-size: 2.4rem;
-    line-height: 1.3em;
+    font-size: 2.5rem;
+    line-height: 1.0em;
     font-weight: 600;
+    padding: 0.2em 0.5em;
+    border-left: solid 5px ${colors.blue};
   }
   h2 + h3 {
     margin-top: 0.7em;
@@ -318,7 +321,7 @@ export const PostFullContent = styled.section`
 
   h4 {
     margin: 0.5em 0 0.2em;
-    font-size: 2.0rem;
+    font-size: 2.2rem;
     font-weight: 600;
   }
   h2 + h4 {
@@ -365,7 +368,7 @@ export const PostFullContent = styled.section`
 
   h6 {
     margin: 0.5em 0 0.2em 0;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 700;
   }
   @media (max-width: 800px) {
