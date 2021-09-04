@@ -10,7 +10,8 @@ import styled from '@emotion/styled';
 
 import { colors } from '../styles/colors';
 import { PageContext } from '../templates/post';
-import { AuthorList } from './AuthorList';
+// import { AuthorList } from './AuthorList';
+import { Tag } from '../components/icons/tag';
 
 export interface PostCardProps {
   post: PageContext;
@@ -49,6 +50,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
           <PostCardHeader className="post-card-header">
             {post.frontmatter.tags && (
               <PostCardPrimaryTag className="post-card-primary-tag">
+                <Tag></Tag>
                 {post.frontmatter.tags.map(tag => (
                   <PostCardTag>
                     <Link to={`/tags/${_.kebabCase(tag)}/`}>
@@ -192,13 +194,14 @@ const PostCardPrimaryTag = styled.div`
   margin: 0 0 0.2em;
   /* color: var(--blue); */
   color: ${colors.blue};
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.2px;
 `;
 
 const PostCardTag = styled.div`
-  margin-right: 0.5em;
+  margin-left: 0.3em;
+  margin-right: 0.2em;
 `;
 
 const PostCardTitle = styled.h2`

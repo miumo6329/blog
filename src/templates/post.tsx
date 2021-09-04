@@ -19,7 +19,8 @@ import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
 import { inner, outer, SiteMain } from '../styles/shared';
 import config from '../website-config';
-import { AuthorList } from '../components/AuthorList';
+// import { AuthorList } from '../components/AuthorList';
+import {Tag} from '../components/icons/tag'
 
 export interface Author {
   id: string;
@@ -192,6 +193,7 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
             <article css={[PostFull, !post.frontmatter.image && NoImage]}>
               <PostFullHeader className="post-full-header">
                 <PostFullTags className="post-full-tags">
+                  <Tag></Tag>
                   {post.frontmatter.tags.map(tag => (
                     <PostTags>
                       <Link to={`/tags/${_.kebabCase(tag)}/`}>
@@ -317,13 +319,14 @@ const PostFullTags = styled.section`
   align-items: center;
   /* color: var(--midgrey); */
   color: ${colors.midgrey};
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.4em;
   font-weight: 600;
 `;
 
 const PostTags = styled.div`
-  margin-right: 0.5em;
+  margin-left: 0.3em;
+  margin-right: 0.2em;
 `;
 
 const PostFullCustomExcerpt = styled.p`
