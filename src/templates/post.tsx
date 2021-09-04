@@ -206,15 +206,15 @@ const PageTemplate = ({ data, pageContext, location }: PageTemplateProps) => {
                 </PostFullCustomExcerpt>
                 <PostFullByline className="post-full-byline">
                   <section className="post-full-byline-content">
-                    <AuthorList authors={post.frontmatter.author} tooltip="large" />
+                    {/* <AuthorList authors={post.frontmatter.author} tooltip="large" /> */}
                     <section className="post-full-byline-meta">
-                      <h4 className="author-name">
+                      {/* <h4 className="author-name">
                         {post.frontmatter.author.map(author => (
                           <Link key={author.id} to={`/author/${_.kebabCase(author.id)}/`}>
                             {author.id}
                           </Link>
                         ))}
-                      </h4>
+                      </h4> */}
                       <div className="byline-meta-content">
                         <time className="byline-meta-date" dateTime={datetime}>
                           {displayDatetime}

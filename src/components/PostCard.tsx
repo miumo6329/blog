@@ -65,9 +65,9 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
           </PostCardExcerpt>
         </Link>
         <PostCardMeta className="post-card-meta">
-          <AuthorList authors={post.frontmatter.author} tooltip="small" />
+          {/* <AuthorList authors={post.frontmatter.author} tooltip="small" /> */}
           <PostCardBylineContent className="post-card-byline-content">
-            <span>
+            {/* <span>
               {post.frontmatter.author.map((author, index) => {
                 return (
                   <React.Fragment key={author.id}>
@@ -76,7 +76,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
                   </React.Fragment>
                 );
               })}
-            </span>
+            </span> */}
             <span className="post-card-byline-date">
               <time dateTime={datetime}>{displayDatetime}</time>{' '}
               <span className="bull">&bull;</span> {post.fields.readingTime.text}
