@@ -129,16 +129,16 @@ export const PostFullContent = styled.section`
   img,
   video {
     display: block;
-    margin: 1.5em auto;
+    // margin: 1.5em auto;
     max-width: 1040px;
     height: auto;
   }
-  @media (max-width: 1040px) {
-    img,
-    video {
-      width: 100%;
-    }
-  }
+  // @media (max-width: 1040px) {
+  //   img,
+  //   video {
+  //     width: 100%;
+  //   }
+  // }
 
   img[src$='#full'] {
     max-width: none;
