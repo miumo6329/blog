@@ -50,9 +50,9 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'miumo.log',
-  description: 'Simplicity is the ultimate sophistication.',
+  description: 'Chop your own wood, and it will warm you twice.',
   coverImage: 'img/blog-cover.png',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/logo.png',
   lang: 'ja',
   siteUrl: 'https://miumo2020.github.io',
   facebook: '',
