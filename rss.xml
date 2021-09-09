@@ -1,11 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo2020.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 02 Sep 2021 14:41:37 GMT</lastBuildDate><item><title><![CDATA[Gatsby & GitHub Pagesでブログを作る]]></title><description><![CDATA[実行環境 Windows 10 Home Node.js v16.8.0. npm —version 7.21.0 Node.jsインストール 公式サイトからインストーラをダウンロードします。
-今回は最新版をインストールしました。 https://nodejs.org/ja…]]></description><link>https://miumo2020.github.io/20210827/start-blog/</link><guid isPermaLink="false">https://miumo2020.github.io/20210827/start-blog/</guid><pubDate>Fri, 27 Aug 2021 22:45:00 GMT</pubDate><content:encoded>&lt;h1&gt;実行環境&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo2020.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 09 Sep 2021 15:54:45 GMT</lastBuildDate><item><title><![CDATA[ProcessingでGenerative Art入門]]></title><description><![CDATA[はじめに Processingインストール https://processing.org/downloadにアクセスし、zipファイルをダウンロード。私は4.0 beta 1、Windows 64-bit版を選択しました。  zipファイルを解凍し、processing.exe…]]></description><link>https://miumo2020.github.io/2021/09/09/install-processing/</link><guid isPermaLink="false">https://miumo2020.github.io/2021/09/09/install-processing/</guid><pubDate>Thu, 09 Sep 2021 23:58:10 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
+&lt;h3&gt;Processingインストール&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://processing.org/download&quot;&gt;https://processing.org/download&lt;/a&gt;にアクセスし、zipファイルをダウンロード。私は4.0 beta 1、Windows 64-bit版を選択しました。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 878px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/d059237f81abfdd84a2bc5e1419a91f0/7bc11/20210909111116.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 118.39999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEXUlEQVQ4y5WUy24cRRSG+xUgEIglEAt2iDWQIDYkEDvCjkMClngNHiACFmxQlA0SYskOFmEHUqTIIQ5IgEg8duLEM+Ppy/RtZvp+757pD1XZMyZShKCkX1V1uvrUOf/5TylLS6/y5lvv887b73Hm9FlOnznH66+9wQsnX+bEMy9y4tlT/4rnTixx8vmXWDr1ioSytvox62sbrK5tcGHlEhdXLrG8coH19ctcXN9g9YMPWT6/ytl3lzl3duUJCNvy8hprq1e4cvkTLq59hJIGNdmkYZy2ZGkDXko69cmbFDNO+T/DdV0UTXep62ZhbGmZzeaYPRXT6ZQgCMiyjLIsyfOcqqqxbBsljjMGqosxHKPpI/kBDp21bXt0SyttYm6fAnFWDMuyUZI0xxhOsGxfoqqOoxUHy7KmbqYyCzE3RxAZiEj/ebFtHzl8sKezvavyuGvy1/0+nQcaDx5q9A5sTMvDHYUY5gR9OJaXCpszCrFsjzDKFgFIh2VZEUUpRZ6SxIk8EIYpQZhQ19MnSD9Mcc7ldMFp0xxmpesGSl3XJEnKNz+HPLZK2iaXJJdlgW1bGMMhk/GY8XhMnCSkaSqLIc5kWS73SZJIx7quo7RtzZ+dMV/+4LNvl9RFIi8QBzs7+xKj8YQoisiylCiO2e8aDFQTz/Okc+FQ8ClTbpoaw3DRNYOROyKTN6cSqmqjGxZJEsuI5tH4fojnBYRhKG1xHMu0HcdBqaqKJMnxg0SiKCvyvJSz4LcoKrKskD/MeRM8zuUiIhM+FkWJIpGChm2P6PcNdMPGGDpYlst+V6fb0+n1DcIwIo4jKWjBpaBAQET4RJWLIkfTNPmxqWvEvqpKiaauqAWqkqIojgqRLeb5eq5DKWxRKd0YSY0JfQnBHrfhfxvHnWIJHZaS6Fw41nWGQ4MkbxjFLWHaYAUzRtEML25wwhlBOqOsZxRVSzM9bEnB6SJCkaIgXJDb7x+gDgZkZYsZgp9MccIWKwQraNE85N4MQPNhkkCUtYRZexyhIFVVVSzTZGjomKYpyRXroeViugG2ZWKahrQ5jo1tGZhDQ0Y08QKqo46ybQcliWMe7T3kwJjwWJ0w0Cx63S7d7j7d3gGPDly6fdHXOt2+Sm+g83Bfo2cEWLYDVAsuZYRZmmKaQylKcUC0mqi6aVoY1gTNLTAmU4ZujOnGGE6EMcroaw437oz5/HuDT7+6RV2WeL4vUs5lR6iaTRDGUi6iUFVZSuKLBplSWWQUeUZVFXINU65/dx/l1auc37hGXdWyY5S8KPB9IdhYvi7C6Pv+0QvSkhQtWTklryApIC1aggzE115X5bNrNzGcwyfM83wUZg1JWpLVSKGKTgjCkCRNpGiDOCOKU8I4I04LojjDj3Lyspav/PWvf+LetiodikdF+b3ziJtbf3Drt3tsbt5ma+sOm5ubbG1t0ens0Ols0+l02NnZZnf3cBa2vb1dbv/yK1e/+JYbP95kMOhz9+5d/gZljMPvzKeDfgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;processing.org&quot;
+        title=&quot;processing.org&quot;
+        src=&quot;/blog/static/d059237f81abfdd84a2bc5e1419a91f0/7bc11/20210909111116.png&quot;
+        srcset=&quot;/blog/static/d059237f81abfdd84a2bc5e1419a91f0/0eb09/20210909111116.png 500w,
+/blog/static/d059237f81abfdd84a2bc5e1419a91f0/7bc11/20210909111116.png 878w&quot;
+        sizes=&quot;(max-width: 878px) 100vw, 878px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;zipファイルを解凍し、processing.exeを実行。
+Processingを起動すると、下記の様なIDEが表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 686px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/678263e88de002f2326ed67129096bb0/3a6ec/20210909111331.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.4%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAACJElEQVQ4y62SX0hTURzHz+2xwAiRTcGnHip7COpBJpQZQS8RqZWh9iAEPQQ+NDfLifZnWVEQFZJ/QjfqQawgfcmgh9JAUmtbMukPS5nbcnkzQ12z7d5PeO9YFiZNO/Dh++Nwzufc+ztH+Ec/8O3rZ6anJojMyERnJonOyqDMAfOACiiJ/Bsx4IeWwtz4DlvLW862erG1+jh5w4el2Y+laRRr8xi1jhC29qBOWzBZ17YHqWkLYr8X4FqHn/q7Aeqc44i0Ije7zF6O2V3sMbvJOeHFWDJAWpGH9YeGtVySYg/rCj1kl7nIqRhiwxE36SVuhOm4h6sdYV4My/S8/MQz1wRVNwc5XB+ivOELZRflZSm1yxy9IFPeIHOwZgKRVzpC55NpFkZkHqIxiKvLd+xPFFXbTr9rBmEo+Iija06biMcXLVP/HSVh7BuaRmTvfYWze0qbiMVVVDV14knhFCKroBdndzgpTHWov33hJCJr92McXYH/IuwdCiOM+Q9wdI0mhMqKfjkpHAwhMvOdOB6914UxZVU9fD4wjli7/Tot998kblkhtQejsyDVhWOIU1d66Hsd0N7SbCRGJBpPmdnvMa3/T/t9iLrLLdgu3aHqXBOW882rorK2ESGEQEfiV50K0qKUEJIkLb1IWrOyQ9J3VLL1wC12VjxkW0knW/bfxrCpEMPGfWRsLiYj10pGbhVGkxVjXjVGU7WWmQt13ukEZ/Q0WfkJPrUfN5gzja4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;processing.exe&quot;
+        title=&quot;processing.exe&quot;
+        src=&quot;/blog/static/678263e88de002f2326ed67129096bb0/3a6ec/20210909111331.png&quot;
+        srcset=&quot;/blog/static/678263e88de002f2326ed67129096bb0/0eb09/20210909111331.png 500w,
+/blog/static/678263e88de002f2326ed67129096bb0/3a6ec/20210909111331.png 686w&quot;
+        sizes=&quot;(max-width: 686px) 100vw, 686px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;OpenProcessingについて&lt;/h3&gt;
+&lt;p&gt;手っ取り早く始めたければ、Web上で動作するOpenProcessingを使うのも手です。
+&lt;a href=&quot;https://openprocessing.org/&quot;&gt;https://openprocessing.org/&lt;/a&gt;にアクセスし、画面右上にある「Create a Sketch」をクリックすると、下記の様なエディタが表示されます。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 878px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/e612330b27b29991e754efabe4b7e068/7bc11/20210909112910.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 89.4%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC8UlEQVQ4y52Sy3LaSBhGeYd4YWxAoAtI4iIEMgFjTCqYGNszELNxdllll0fzC0wWXmaMs5oHmJmamiR2QOIqCVd5cVKSL8M4K2fx1d9qtU6f7l8RMamy3+ryqv2a9t5trVVbJOIy0XWBjWiSzY1UmNimGGZzQ3yYC+djEnEhTTwhE8lly5SKNcxijXzOomhU0FSDfK5MLlsiq5sochZJ1MJNgggJhaSQDqss6eQ0k2qhgpWziLx82aJW28ayLEyzhGmalEplKpVKmOfPq2xv12k0GpTLZUqlEoZhUMgXMI0iimHwrlpj1u/zx+ERkcFgwIcPv3F6esrvHz9yMRgwOD/n/C7B+OJiQLDu06cLzs7OeH18HAqUTJOCaWKmBN5kNd5YFhHP85jM5vxzOeSbbTOeTpl5Lu7SZ+55zD2X6+vrMDc3NziOw8nJCZqmUiya7NSqtN6+p3zUxyiXiUwnE2aLOX8NL/nz8iufL6+4GjvY0wlXY5vh2GE+n7NYLAg2t22bTqdDNBpFlhU0NYPVOiK3VaO50yAyDYzmC6azBcHYnS9Y+j6+591VPwS5rstyuWQ0GtHr9R7uU5ZlpNgGhqbSbr8iMptOwyP/O7L5++sXvoyGfJuMGY+nTMYT3OD47m183w8NDw4OSKVSaJpGJpNBV9IogsBOfYfIbDYLF3uei+d7Dzb3WX2+N+z3+xSLRarVKqqqIqczGLvt/4CrH3l3kPusQgNgYNjtdkO7QqGAqt5abkbX2a7XfwQ+zu27/wMPDw9RFIV8Pk8qmUSUJHSr+qPhqtnjPD5y8HMHjdF1HT2bxajUaDZePA242pR4PI4oikiSFHY6Hl2nUd/9CUPb5rjXQ9c0JFEMux1UM63QftF6ItD3GTkO/f199FgsvLuUKCIIAtbWFr/+0ns60HYcup0OWUHATKfJBtA7y91G8yfu0HFoNZtEnz1DSiaRUqkQGFgmEomn3+FwNKKzt0cmMDRNRFEiFouRiMdZW1vjO1jB55P8QnlrAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;openprocessing&quot;
+        title=&quot;openprocessing&quot;
+        src=&quot;/blog/static/e612330b27b29991e754efabe4b7e068/7bc11/20210909112910.png&quot;
+        srcset=&quot;/blog/static/e612330b27b29991e754efabe4b7e068/0eb09/20210909112910.png 500w,
+/blog/static/e612330b27b29991e754efabe4b7e068/7bc11/20210909112910.png 878w&quot;
+        sizes=&quot;(max-width: 878px) 100vw, 878px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsbyにprismjsを使ってシンタックスハイライト]]></title><description><![CDATA[はじめに このブログは、gatsby-casperを基に作られている。
+Markdownのコード追加/削除の表示をGitHubライクにしたかったのだが、上手くいかなかった。 Before Before After After 試したこと gatsby-casper…]]></description><link>https://miumo2020.github.io/2021/09/08/gatsby-prismjs/</link><guid isPermaLink="false">https://miumo2020.github.io/2021/09/08/gatsby-prismjs/</guid><pubDate>Wed, 08 Sep 2021 23:58:10 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;このブログは、&lt;a href=&quot;https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/&quot;&gt;gatsby-casper&lt;/a&gt;を基に作られている。
+Markdownのコード追加/削除の表示をGitHubライクにしたかったのだが、上手くいかなかった。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Before&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/c3e1e411d1ac073f2769b345858d66ea/before.png&quot; alt=&quot;Before&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;After&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/c647c2660ffee4bb9e7c32097f1f0f6f/after.png&quot; alt=&quot;After&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;試したこと&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/&quot;&gt;gatsby-casper&lt;/a&gt;には既に必要なモジュールはインストール済みだった。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;    &lt;span class=&quot;token string&quot;&gt;&quot;gatsby-transformer-remark&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;4.0.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;gatsby-remark-prismjs&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;5.0.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token string&quot;&gt;&quot;prismjs&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;1.23.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/&quot;&gt;https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/&lt;/a&gt;を参考にコードを改修する。&lt;/p&gt;
+&lt;h3&gt;gatsby-config.js修正&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;diff&quot;&gt;&lt;pre class=&quot;language-diff-jsdiff-highlight&quot;&gt;&lt;code class=&quot;language-diff-jsdiff-highlight&quot;&gt;&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;   {
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;     resolve: &apos;gatsby-transformer-remark&apos;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;     options: {
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;       plugins: [
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;         {
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;           resolve: &apos;gatsby-remark-responsive-iframe&apos;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;           options: {
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;             wrapperStyle: &apos;margin-bottom: 1rem&apos;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;           },
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;         },
+&lt;/span&gt;&lt;span class=&quot;token deleted-sign deleted&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;         &apos;gatsby-remark-prismjs&apos;,
+&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;         {
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;           resolve: `gatsby-remark-prismjs`,
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;           options: {
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;             classPrefix: &quot;language-&quot;,
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;             inlineCodeMarker: null,
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;             aliases: {},
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;             showLineNumbers: false,
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;             noInlineHighlight: false,
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;           },
+&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;         },
+&lt;/span&gt;&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;         &apos;gatsby-remark-copy-linked-files&apos;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;         &apos;gatsby-remark-smartypants&apos;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;         &apos;gatsby-remark-reading-time&apos;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;         {
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;           resolve: &apos;gatsby-remark-images&apos;,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;           options: {
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;             maxWidth: 2000,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;             quality: 100,
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;           },
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;         },
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;       ],
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;     },
+&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;   },
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;gatsby-browser.js作成&lt;/h3&gt;
+&lt;p&gt;プロジェクト直下にgatsby-browser.jsを作成。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;prismjs/themes/prism-tomorrow.css&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;prismjs/plugins/diff-highlight/prism-diff-highlight.css&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;component修正&lt;/h3&gt;
+&lt;p&gt;src/components/PostContent.tsx内のシンタックスハイライトに関するコードを削除したが、これはどちらでも良い。gatsby-casperのテーマ使いたければ残すし、PrismJSのテーマを使いたければ削除。&lt;/p&gt;
+&lt;h2&gt;実際に確認してみる&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://prismjs.com/plugins/diff-highlight/&quot;&gt;https://prismjs.com/plugins/diff-highlight/&lt;/a&gt;を参考にMarkdownを作成。（実際にはエスケープ「\」は入力しないよう注意）&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;\```diff-javascript diff-highlight
+@@ -4,6 +4,5 @@
+-    let foo = bar.baz([1, 2, 3]);
+-    foo = foo + 1;
++    const foo = bar.baz([1, 2, 3]) + 1;
+     console.log(`foo: ${foo}`);
+\```&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;開発サーバを立ち上げて、&lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt; を確認。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Result&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/f453eeed7ccd1607cb559a25e651cb6f/result.png&quot; alt=&quot;Result&quot;&gt;&lt;/p&gt;
+&lt;p&gt;あれ？なんか表示がおかしい…&lt;/p&gt;
+&lt;p&gt;ブラウザの開発モードでDOM確認すると、&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/7620c3197fae38c613c5bd94c90acccd/dom.png&quot; alt=&quot;DOM&quot;&gt;&lt;/p&gt;
+&lt;p&gt;何故かクラス属性の「language-diff-javascript」と「diff-highlight」の間に空白が無く、文字が結合されている。Markdownの変換周りを見直す必要がありそう…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pandasのappendでつまづいた話]]></title><link>https://miumo2020.github.io/2021/09/06/pandas-append-error/</link><guid isPermaLink="false">https://miumo2020.github.io/2021/09/06/pandas-append-error/</guid><pubDate>Mon, 06 Sep 2021 23:58:10 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Gatsby & GitHub Pagesでブログを作る]]></title><description><![CDATA[はじめに ブログ始めました。 実行環境 実行環境を説明します。 Windows 10 Home Node.js v16.8.0. npm —version 7.21.0 インストール Node.js…]]></description><link>https://miumo2020.github.io/2021/08/27/start-blog/</link><guid isPermaLink="false">https://miumo2020.github.io/2021/08/27/start-blog/</guid><pubDate>Fri, 27 Aug 2021 22:45:00 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;ブログ始めました。&lt;/p&gt;
+&lt;h3&gt;実行環境&lt;/h3&gt;
+&lt;p&gt;実行環境を説明します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Windows 10 Home&lt;/li&gt;
 &lt;li&gt;Node.js v16.8.0.&lt;/li&gt;
 &lt;li&gt;npm —version 7.21.0&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;Node.jsインストール&lt;/h1&gt;
+&lt;h2&gt;インストール&lt;/h2&gt;
+&lt;h3&gt;Node.jsインストール&lt;/h3&gt;
 &lt;p&gt;公式サイトからインストーラをダウンロードします。
 今回は最新版をインストールしました。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://nodejs.org/ja/&quot;&gt;https://nodejs.org/ja/&lt;/a&gt;&lt;/p&gt;
@@ -37,12 +209,12 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;Gatsbyインストール&lt;/h1&gt;
+&lt;h3&gt;Gatsbyインストール&lt;/h3&gt;
 &lt;p&gt;コマンドプロンプトから下記コマンドを実行。
 いろいろなウェブサイトを見ていると&lt;code class=&quot;language-text&quot;&gt;npm install -g gatsby-cli&lt;/code&gt;としてグローバルにインストールしている例もありますが、今回はGatsby用のパッケージフォルダを作成しました。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm init
 npm install gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;Gatsby Starterを使ってサイト生成&lt;/h1&gt;
+&lt;h2&gt;Gatsby Starterを使ってサイト生成&lt;/h2&gt;
 &lt;p&gt;CLIコマンドを実行しサイト生成します。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npx gatsby new blog https://github.com/scttcper/gatsby-casper&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;ビジュアルがかっこよかったので&lt;a href=&quot;https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/&quot;&gt;gatsby-casper&lt;/a&gt;を使いました。
@@ -79,7 +251,7 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;GitHub Pagesの設定&lt;/h1&gt;
+&lt;h2&gt;GitHub Pagesの設定&lt;/h2&gt;
 &lt;p&gt;GitHub → New Repository → 任意のRepository name入力 → Create repository&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -109,7 +281,7 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;ソースコードの修正&lt;/h1&gt;
+&lt;h2&gt;ソースコードの修正&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ページネーションの設定&lt;/li&gt;
 &lt;/ul&gt;
@@ -127,9 +299,9 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
       &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;PostContent.tsx&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; PostFullContent &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styled&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;section`
-  position&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; relative&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  margin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; auto&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;tsx&quot;&gt;&lt;pre class=&quot;language-tsx&quot;&gt;&lt;code class=&quot;language-tsx&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; PostFullContent &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styled&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;section`
+&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; position&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; relative&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; margin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; auto&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   padding&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;170&lt;/span&gt;px &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;vw&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   min&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;height&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;230&lt;/span&gt;px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;token comment&quot;&gt;// font-family: Georgia, serif;&lt;/span&gt;
@@ -138,7 +310,12 @@ npx gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   line&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;height&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1.6&lt;/span&gt;em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   background&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; #fff&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
       &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;
-      &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Github Source]]></title><description><![CDATA[A few things you should know Find the source of this blog on GitHub - scttcper/gatsby-casper Getting Started Use this repo to start your own…]]></description><link>https://miumo2020.github.io/github-link/</link><guid isPermaLink="false">https://miumo2020.github.io/github-link/</guid><pubDate>Sun, 10 Mar 2019 10:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;strong&gt;A few things you should know&lt;/strong&gt;&lt;/h2&gt;
+      &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;diff&quot;&gt;&lt;pre class=&quot;language-diff-javascriptdiff-highlight&quot;&gt;&lt;code class=&quot;language-diff-javascriptdiff-highlight&quot;&gt;&lt;span class=&quot;token coord&quot;&gt;@@ -4,6 +4,5 @@&lt;/span&gt;
+&lt;span class=&quot;token deleted-sign deleted&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;    let foo = bar.baz([1, 2, 3]);
+&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;    foo = foo + 1;
+&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;    const foo = bar.baz([1, 2, 3]) + 1;
+&lt;/span&gt;&lt;span class=&quot;token unchanged&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;    console.log(`foo: ${foo}`);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Github Source]]></title><description><![CDATA[A few things you should know Find the source of this blog on GitHub - scttcper/gatsby-casper Getting Started Use this repo to start your own…]]></description><link>https://miumo2020.github.io/github-link/</link><guid isPermaLink="false">https://miumo2020.github.io/github-link/</guid><pubDate>Sun, 10 Mar 2019 10:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;strong&gt;A few things you should know&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Find the source of this blog on GitHub - &lt;a href=&quot;https://github.com/scttcper/gatsby-casper&quot;&gt;scttcper/gatsby-casper&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Getting Started&lt;/h3&gt;
 &lt;p&gt;Use this repo to start your own blog with the same theme.&lt;/p&gt;
