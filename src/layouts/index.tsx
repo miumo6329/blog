@@ -362,7 +362,7 @@ const IndexLayout: React.FC<IndexProps> = props => {
           }
 
           li {
-            margin: 0.5em 0;
+            margin: 0.2em 0;
             padding-left: 0.3em;
             line-height: 1.6em;
           }

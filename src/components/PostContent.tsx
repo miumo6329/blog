@@ -452,6 +452,8 @@ export const PostFullContent = styled.section`
     h3,
     h4,
     h6 {
+      margin-top: 2.0em;
+      margin-bottom: 0.5em;
       color: rgba(255, 255, 255, 0.9);
     }
 
