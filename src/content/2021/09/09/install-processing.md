@@ -6,6 +6,7 @@ author: [miumo]
 date: 2021-09-09T23:58:10.000Z
 tags: [Processing, GenerativeArt]
 excerpt: 
+draft: false
 ---
 
 ## はじめに
