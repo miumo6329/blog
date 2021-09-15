@@ -11,8 +11,9 @@ draft: false
 
 ## はじめに
 
-このブログは、[gatsby-casper](https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/)を基に作られている。
-Markdownのコード追加/削除の表示をGitHubライクにしたかったのだが、上手くいかなかった。
+このブログは、[gatsby-casper](https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/)を基に作られています
+(ブログ構築時の記録は[以前の記事](/2021/08/27/start-blog/)を参照)。
+Markdownのコード追加/削除の表示をGitHubライクにしたかったのですが、上手くいきませんでした。
 
 - Before
 
@@ -25,7 +26,7 @@ Markdownのコード追加/削除の表示をGitHubライクにしたかった�
 
 ## 試したこと
 
-[gatsby-casper](https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/)には既に必要なモジュールはインストール済みだった。
+[gatsby-casper](https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/)には既に必要なモジュールはインストール済みでした。
 
 ```js
     "gatsby-transformer-remark": "4.0.0",
@@ -34,7 +35,7 @@ Markdownのコード追加/削除の表示をGitHubライクにしたかった�
 ```
 
 
-[https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/](https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/)を参考にコードを改修する。
+[https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/](https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/)を参考にコードを改修します。
 
 ### gatsby-config.js修正
 
@@ -87,12 +88,12 @@ require("prismjs/plugins/diff-highlight/prism-diff-highlight.css");
 
 ### component修正
 
-src/components/PostContent.tsx内のシンタックスハイライトに関するコードを削除したが、これはどちらでも良い。gatsby-casperのテーマ使いたければ残すし、PrismJSのテーマを使いたければ削除。
+src/components/PostContent.tsx内にシンタックスハイライト用のcssスタイルが既に記述されていました。私はここのコードをそのまま残しましたが、PrismJSのスタイルを使いたければ削除します。
 
 
 ## 実際に確認してみる
 
-[https://prismjs.com/plugins/diff-highlight/](https://prismjs.com/plugins/diff-highlight/)を参考にMarkdownを作成。（実際にはエスケープ「\」は入力しないよう注意）
+[https://prismjs.com/plugins/diff-highlight/](https://prismjs.com/plugins/diff-highlight/)を参考にMarkdownを作成。（実際にはエスケープ「\」は入力しないよう注意します）
 
 ```
 \```diff-javascript diff-highlight
@@ -114,12 +115,12 @@ npx gatsby develop
 
 ![Result](result.PNG)
 
-あれ？なんか表示がおかしい…
-
-ブラウザの開発モードでDOM確認すると、
+あれ？なんか表示が思っていたのと違う…<br>
+ブラウザの開発モードでDOMを確認すると、
 
 ![DOM](dom.PNG)
 
-何故かクラス属性の「language-diff-javascript」と「diff-highlight」の間に空白が無く、文字が結合されている。Markdownの変換周りを見直す必要がありそう…
+何故かクラス属性の「language-diff-javascript」と「diff-highlight」の間に空白が無く、文字が結合されています。Markdownの変換周りを見直す必要がありそう…<br>
+今日のところはここまで。
 
 
