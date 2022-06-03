@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: 'miumo blog',
     description: 'miumo blog',
-    siteUrl: 'https://miumo2020.github.io', // full path to blog - no ending slash
+    siteUrl: 'https://miumo6329.github.io', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -64,7 +64,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://miumo2020.github.io',
+        siteUrl: 'https://miumo6329.github.io',
       },
     },
     'gatsby-plugin-typescript',
