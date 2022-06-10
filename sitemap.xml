@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url> <loc>https://miumo6329.github.io/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/2021/08/27/start-blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://miumo6329.github.io/blog/2021/09/06/pandas-append-error/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/2021/09/08/gatsby-prismjs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://miumo6329.github.io/blog/2021/09/09/install-processing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/tags/node-js/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/tags/gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/tags/git-hub-pages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://miumo6329.github.io/blog/tags/python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://miumo6329.github.io/blog/tags/pandas/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/tags/prism-js/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://miumo6329.github.io/blog/tags/processing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://miumo6329.github.io/blog/tags/generative-art/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/author/miumo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/author/ghost/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://miumo6329.github.io/blog/author/another-author/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

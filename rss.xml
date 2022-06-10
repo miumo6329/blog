@@ -1,95 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo6329.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Jun 2022 15:05:28 GMT</lastBuildDate><item><title><![CDATA[ProcessingでGenerative Art入門]]></title><description><![CDATA[はじめに Processingインストール https://processing.org/downloadにアクセスし、zipファイルをダウンロード。私は4.0 beta 1、Windows 64-bit版を選択しました。  zipファイルを解凍し、processing.exe…]]></description><link>https://miumo6329.github.io/2021/09/09/install-processing/</link><guid isPermaLink="false">https://miumo6329.github.io/2021/09/09/install-processing/</guid><pubDate>Thu, 09 Sep 2021 23:58:10 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
-&lt;h3&gt;Processingインストール&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://processing.org/download&quot;&gt;https://processing.org/download&lt;/a&gt;にアクセスし、zipファイルをダウンロード。私は4.0 beta 1、Windows 64-bit版を選択しました。&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 878px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/d059237f81abfdd84a2bc5e1419a91f0/7bc11/20210909111116.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 118.39999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEXUlEQVQ4y5WUy24cRRSG+xUgEIglEAt2iDWQIDYkEDvCjkMClngNHiACFmxQlA0SYskOFmEHUqTIIQ5IgEg8duLEM+Ppy/RtZvp+757pD1XZMyZShKCkX1V1uvrUOf/5TylLS6/y5lvv887b73Hm9FlOnznH66+9wQsnX+bEMy9y4tlT/4rnTixx8vmXWDr1ioSytvox62sbrK5tcGHlEhdXLrG8coH19ctcXN9g9YMPWT6/ytl3lzl3duUJCNvy8hprq1e4cvkTLq59hJIGNdmkYZy2ZGkDXko69cmbFDNO+T/DdV0UTXep62ZhbGmZzeaYPRXT6ZQgCMiyjLIsyfOcqqqxbBsljjMGqosxHKPpI/kBDp21bXt0SyttYm6fAnFWDMuyUZI0xxhOsGxfoqqOoxUHy7KmbqYyCzE3RxAZiEj/ebFtHzl8sKezvavyuGvy1/0+nQcaDx5q9A5sTMvDHYUY5gR9OJaXCpszCrFsjzDKFgFIh2VZEUUpRZ6SxIk8EIYpQZhQ19MnSD9Mcc7ldMFp0xxmpesGSl3XJEnKNz+HPLZK2iaXJJdlgW1bGMMhk/GY8XhMnCSkaSqLIc5kWS73SZJIx7quo7RtzZ+dMV/+4LNvl9RFIi8QBzs7+xKj8YQoisiylCiO2e8aDFQTz/Okc+FQ8ClTbpoaw3DRNYOROyKTN6cSqmqjGxZJEsuI5tH4fojnBYRhKG1xHMu0HcdBqaqKJMnxg0SiKCvyvJSz4LcoKrKskD/MeRM8zuUiIhM+FkWJIpGChm2P6PcNdMPGGDpYlst+V6fb0+n1DcIwIo4jKWjBpaBAQET4RJWLIkfTNPmxqWvEvqpKiaauqAWqkqIojgqRLeb5eq5DKWxRKd0YSY0JfQnBHrfhfxvHnWIJHZaS6Fw41nWGQ4MkbxjFLWHaYAUzRtEML25wwhlBOqOsZxRVSzM9bEnB6SJCkaIgXJDb7x+gDgZkZYsZgp9MccIWKwQraNE85N4MQPNhkkCUtYRZexyhIFVVVSzTZGjomKYpyRXroeViugG2ZWKahrQ5jo1tGZhDQ0Y08QKqo46ybQcliWMe7T3kwJjwWJ0w0Cx63S7d7j7d3gGPDly6fdHXOt2+Sm+g83Bfo2cEWLYDVAsuZYRZmmKaQylKcUC0mqi6aVoY1gTNLTAmU4ZujOnGGE6EMcroaw437oz5/HuDT7+6RV2WeL4vUs5lR6iaTRDGUi6iUFVZSuKLBplSWWQUeUZVFXINU65/dx/l1auc37hGXdWyY5S8KPB9IdhYvi7C6Pv+0QvSkhQtWTklryApIC1aggzE115X5bNrNzGcwyfM83wUZg1JWpLVSKGKTgjCkCRNpGiDOCOKU8I4I04LojjDj3Lyspav/PWvf+LetiodikdF+b3ziJtbf3Drt3tsbt5ma+sOm5ubbG1t0ens0Ols0+l02NnZZnf3cBa2vb1dbv/yK1e/+JYbP95kMOhz9+5d/gZljMPvzKeDfgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;processing.org&quot;
-        title=&quot;processing.org&quot;
-        src=&quot;/blog/static/d059237f81abfdd84a2bc5e1419a91f0/7bc11/20210909111116.png&quot;
-        srcset=&quot;/blog/static/d059237f81abfdd84a2bc5e1419a91f0/0eb09/20210909111116.png 500w,
-/blog/static/d059237f81abfdd84a2bc5e1419a91f0/7bc11/20210909111116.png 878w&quot;
-        sizes=&quot;(max-width: 878px) 100vw, 878px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;zipファイルを解凍し、processing.exeを実行。
-Processingを起動すると、下記の様なIDEが表示されます。&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 686px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/678263e88de002f2326ed67129096bb0/3a6ec/20210909111331.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 86.4%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAACJElEQVQ4y62SX0hTURzHz+2xwAiRTcGnHip7COpBJpQZQS8RqZWh9iAEPQQ+NDfLifZnWVEQFZJ/QjfqQawgfcmgh9JAUmtbMukPS5nbcnkzQ12z7d5PeO9YFiZNO/Dh++Nwzufc+ztH+Ec/8O3rZ6anJojMyERnJonOyqDMAfOACiiJ/Bsx4IeWwtz4DlvLW862erG1+jh5w4el2Y+laRRr8xi1jhC29qBOWzBZ17YHqWkLYr8X4FqHn/q7Aeqc44i0Ije7zF6O2V3sMbvJOeHFWDJAWpGH9YeGtVySYg/rCj1kl7nIqRhiwxE36SVuhOm4h6sdYV4My/S8/MQz1wRVNwc5XB+ivOELZRflZSm1yxy9IFPeIHOwZgKRVzpC55NpFkZkHqIxiKvLd+xPFFXbTr9rBmEo+Iija06biMcXLVP/HSVh7BuaRmTvfYWze0qbiMVVVDV14knhFCKroBdndzgpTHWov33hJCJr92McXYH/IuwdCiOM+Q9wdI0mhMqKfjkpHAwhMvOdOB6914UxZVU9fD4wjli7/Tot998kblkhtQejsyDVhWOIU1d66Hsd0N7SbCRGJBpPmdnvMa3/T/t9iLrLLdgu3aHqXBOW882rorK2ESGEQEfiV50K0qKUEJIkLb1IWrOyQ9J3VLL1wC12VjxkW0knW/bfxrCpEMPGfWRsLiYj10pGbhVGkxVjXjVGU7WWmQt13ukEZ/Q0WfkJPrUfN5gzja4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;processing.exe&quot;
-        title=&quot;processing.exe&quot;
-        src=&quot;/blog/static/678263e88de002f2326ed67129096bb0/3a6ec/20210909111331.png&quot;
-        srcset=&quot;/blog/static/678263e88de002f2326ed67129096bb0/0eb09/20210909111331.png 500w,
-/blog/static/678263e88de002f2326ed67129096bb0/3a6ec/20210909111331.png 686w&quot;
-        sizes=&quot;(max-width: 686px) 100vw, 686px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;OpenProcessingについて&lt;/h3&gt;
-&lt;p&gt;手っ取り早く始めたければ、Web上で動作するOpenProcessingを使うのも手です。
-&lt;a href=&quot;https://openprocessing.org/&quot;&gt;https://openprocessing.org/&lt;/a&gt;にアクセスし、画面右上にある「Create a Sketch」をクリックすると、下記の様なエディタが表示されます。&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 878px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/e612330b27b29991e754efabe4b7e068/7bc11/20210909112910.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 89.4%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC8UlEQVQ4y52Sy3LaSBhGeYd4YWxAoAtI4iIEMgFjTCqYGNszELNxdllll0fzC0wWXmaMs5oHmJmamiR2QOIqCVd5cVKSL8M4K2fx1d9qtU6f7l8RMamy3+ryqv2a9t5trVVbJOIy0XWBjWiSzY1UmNimGGZzQ3yYC+djEnEhTTwhE8lly5SKNcxijXzOomhU0FSDfK5MLlsiq5sochZJ1MJNgggJhaSQDqss6eQ0k2qhgpWziLx82aJW28ayLEyzhGmalEplKpVKmOfPq2xv12k0GpTLZUqlEoZhUMgXMI0iimHwrlpj1u/zx+ERkcFgwIcPv3F6esrvHz9yMRgwOD/n/C7B+OJiQLDu06cLzs7OeH18HAqUTJOCaWKmBN5kNd5YFhHP85jM5vxzOeSbbTOeTpl5Lu7SZ+55zD2X6+vrMDc3NziOw8nJCZqmUiya7NSqtN6+p3zUxyiXiUwnE2aLOX8NL/nz8iufL6+4GjvY0wlXY5vh2GE+n7NYLAg2t22bTqdDNBpFlhU0NYPVOiK3VaO50yAyDYzmC6azBcHYnS9Y+j6+591VPwS5rstyuWQ0GtHr9R7uU5ZlpNgGhqbSbr8iMptOwyP/O7L5++sXvoyGfJuMGY+nTMYT3OD47m183w8NDw4OSKVSaJpGJpNBV9IogsBOfYfIbDYLF3uei+d7Dzb3WX2+N+z3+xSLRarVKqqqIqczGLvt/4CrH3l3kPusQgNgYNjtdkO7QqGAqt5abkbX2a7XfwQ+zu27/wMPDw9RFIV8Pk8qmUSUJHSr+qPhqtnjPD5y8HMHjdF1HT2bxajUaDZePA242pR4PI4oikiSFHY6Hl2nUd/9CUPb5rjXQ9c0JFEMux1UM63QftF6ItD3GTkO/f199FgsvLuUKCIIAtbWFr/+0ns60HYcup0OWUHATKfJBtA7y91G8yfu0HFoNZtEnz1DSiaRUqkQGFgmEomn3+FwNKKzt0cmMDRNRFEiFouRiMdZW1vjO1jB55P8QnlrAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;openprocessing&quot;
-        title=&quot;openprocessing&quot;
-        src=&quot;/blog/static/e612330b27b29991e754efabe4b7e068/7bc11/20210909112910.png&quot;
-        srcset=&quot;/blog/static/e612330b27b29991e754efabe4b7e068/0eb09/20210909112910.png 500w,
-/blog/static/e612330b27b29991e754efabe4b7e068/7bc11/20210909112910.png 878w&quot;
-        sizes=&quot;(max-width: 878px) 100vw, 878px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsbyにprismjsを使ってシンタックスハイライト]]></title><description><![CDATA[はじめに このブログは、gatsby-casperを基に作られています
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Ghost's Blog]]></title><description><![CDATA[miumo blog]]></description><link>https://miumo6329.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 10 Jun 2022 15:36:18 GMT</lastBuildDate><item><title><![CDATA[Gatsbyにprismjsを使ってシンタックスハイライト]]></title><description><![CDATA[はじめに このブログは、gatsby-casperを基に作られています
 (ブログ構築時の記録は以前の記事を参照)。
 Markdownのコード追加/削除の表示をGitHubライクにしたかったのですが、上手くいきませんでした。 Before Before After After…]]></description><link>https://miumo6329.github.io/2021/09/08/gatsby-prismjs/</link><guid isPermaLink="false">https://miumo6329.github.io/2021/09/08/gatsby-prismjs/</guid><pubDate>Wed, 08 Sep 2021 23:58:10 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;このブログは、&lt;a href=&quot;https://www.gatsbyjs.com/starters-next/scttcper/gatsby-casper/&quot;&gt;gatsby-casper&lt;/a&gt;を基に作られています
@@ -170,7 +79,70 @@ Markdownのコード追加/削除の表示をGitHubライクにしたかった�
 ブラウザの開発モードでDOMを確認すると、&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/blog/7620c3197fae38c613c5bd94c90acccd/dom.png&quot; alt=&quot;DOM&quot;&gt;&lt;/p&gt;
 &lt;p&gt;何故かクラス属性の「language-diff-javascript」と「diff-highlight」の間に空白が無く、文字が結合されています。Markdownの変換周りを見直す必要がありそう…&lt;br&gt;
-今日のところはここまで。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby & GitHub Pagesでブログ構築]]></title><description><![CDATA[はじめに これまでコードの覚書や手順の記録は、GitHub のリポジトリで完全自分用として管理していました。が、これらを公開することで誰かの参考になるかもという淡い期待と、なにより自分の勉強のためにもブログを構築してみることにしました。
+今日のところはここまで。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Pandasのappendでつまづいた話]]></title><description><![CDATA[list と同じ感覚で使っていたら、少し挙動が違った。 前提条件 python 3.7.7 list で append する場合 main で作成した list に対して、関数内で値を追加する処理。 pandas で append する場合 上の処理の pandas…]]></description><link>https://miumo6329.github.io/2021/09/06/pandas-append-error/</link><guid isPermaLink="false">https://miumo6329.github.io/2021/09/06/pandas-append-error/</guid><pubDate>Mon, 06 Sep 2021 23:58:10 GMT</pubDate><content:encoded>&lt;p&gt;list と同じ感覚で使っていたら、少し挙動が違った。&lt;/p&gt;
+&lt;h3&gt;前提条件&lt;/h3&gt;
+&lt;p&gt;python 3.7.7&lt;/p&gt;
+&lt;h3&gt;list で append する場合&lt;/h3&gt;
+&lt;p&gt;main で作成した list に対して、関数内で値を追加する処理。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;my_append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;argument id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    l&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;append id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; __name__ &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    l &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;initial id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    my_append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;l&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;initial id: 2117634707976
+argument id: 2117634707976
+append id: 2117634707976
+[&amp;#39;a&amp;#39;]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;pandas で append する場合&lt;/h3&gt;
+&lt;p&gt;上の処理の pandas 版。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; pandas &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; pd
+
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;my_append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;argument id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DataFrame&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;A&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; index&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;A&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ignore_index&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;append id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; __name__ &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DataFrame&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;initial id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    my_append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;initial id: 1620503801928
+argument id: 1620503801928
+append id: 1620503801928
+Empty DataFrame
+Columns: []
+Index: []&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;main で作った df、関数に渡した df、関数内で append 後の df、全て同じ id となっているのに、値が追加されとらんやんけ！なんでやねん！&lt;br&gt;
+…となったが、&lt;code class=&quot;language-text&quot;&gt;pandas.DataFrame.append&lt;/code&gt;は inpalce ではないので、返値を使わないといけない。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; pandas &lt;span class=&quot;token keyword&quot;&gt;as&lt;/span&gt; pd
+
+
+&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;my_append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;argument id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    new_df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; df&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DataFrame&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;A&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;a&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; index&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;A&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ignore_index&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;append id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;new_df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; new_df
+
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; __name__ &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; pd&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;DataFrame&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;initial id:&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    new_df &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; my_append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;new_df&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;initial id: 2455384797320
+argument id: 2455384797320
+append id: 2455818505672
+   A
+0  a&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Gatsby & GitHub Pagesでブログ構築]]></title><description><![CDATA[はじめに これまでコードの覚書や手順の記録は、GitHub のリポジトリで完全自分用として管理していました。が、これらを公開することで誰かの参考になるかもという淡い期待と、なにより自分の勉強のためにもブログを構築してみることにしました。
 少し調べてみると、なにやら Gatsby…]]></description><link>https://miumo6329.github.io/2021/08/27/start-blog/</link><guid isPermaLink="false">https://miumo6329.github.io/2021/08/27/start-blog/</guid><pubDate>Fri, 27 Aug 2021 22:45:00 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;これまでコードの覚書や手順の記録は、GitHub のリポジトリで完全自分用として管理していました。が、これらを公開することで誰かの参考になるかもという淡い期待と、なにより自分の勉強のためにもブログを構築してみることにしました。&lt;br&gt;
 少し調べてみると、なにやら Gatsby という静的サイトジェネレータが便利らしいので、こちらを使って GitHub Pages でブログを公開してみました。&lt;/p&gt;
