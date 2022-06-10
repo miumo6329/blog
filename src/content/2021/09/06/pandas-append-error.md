@@ -5,11 +5,11 @@ image: pandas-logo.png
 author: [miumo]
 date: 2021-09-06T23:58:10.000Z
 tags: [Python, Pandas]
-excerpt: listと同じ感覚で使っていたらミスった。
-draft: true
+excerpt: list と同じ感覚で使っていたら、少し挙動が違った。
+draft: false
 ---
 
-list と同じ感覚で使っていたらミスった。
+list と同じ感覚で使っていたら、少し挙動が違った。
 
 ### 前提条件
 
@@ -71,7 +71,7 @@ Index: []
 ```
 
 main で作った df、関数に渡した df、関数内で append 後の df、全て同じ id となっているのに、値が追加されとらんやんけ！なんでやねん！<br>
-`pandas.DataFrame.append`は inpalce ではないので、返値を使わないといけないという落ちなのでした。
+…となったが、`pandas.DataFrame.append`は inpalce ではないので、返値を使わないといけない。
 
 ```python
 import pandas as pd
