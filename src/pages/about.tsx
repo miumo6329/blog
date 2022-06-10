@@ -62,7 +62,7 @@ const About: React.FC = () => (
                   日々の作業記録、コードの覚書等を掲載します。<br></br>
                   基本的には自分用ですが、どこかで誰かの役に立てば幸いです。<br></br>
                   GitHub：
-                  <Link to={`https://github.com/miumo2020`}>https://github.com/miumo2020</Link>
+                  <Link to={`https://github.com/miumo6329`}>https://github.com/miumo6329</Link>
                 </p>
 
                 <h3>免責事項</h3>

@@ -54,7 +54,7 @@ const config: WebsiteConfig = {
   coverImage: 'img/blog-cover.png',
   logo: 'img/logo.png',
   lang: 'ja',
-  siteUrl: 'https://miumo2020.github.io',
+  siteUrl: 'https://miumo6329.github.io',
   facebook: '',
   twitter: '',
   showSubscribe: false,
